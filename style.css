@@ -1,0 +1,20 @@
+:root{--bg:#0a0e1a;--fg:#e6f1ff;--accent:#00f0ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,"Noto Sans TC",sans-serif;line-height:1.7}
+header,footer{padding:14px 20px;border-bottom:1px solid var(--accent);color:var(--accent)}
+footer{border:0;border-top:1px solid #234;font-size:.85rem;color:#789}
+header a{color:var(--accent);text-decoration:none}
+main{max-width:760px;margin:0 auto;padding:20px}
+h1{color:var(--accent);text-shadow:0 0 12px var(--accent);font-size:1.7rem}
+h2{border-left:4px solid var(--accent);padding-left:10px}
+.tag{color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.card{display:block;padding:16px;border:1px solid var(--accent);border-radius:8px;color:var(--fg);text-decoration:none;background:#0f1630;box-shadow:0 0 10px #0004}
+.card:hover{box-shadow:0 0 16px var(--accent)}
+.card span{color:var(--accent);font-size:.85rem;display:block}
+.card b{display:block;font-size:1.1rem}
+.card small{color:#9ab}
+.portrait{width:140px;height:140px;border:2px solid var(--accent);border-radius:12px;display:grid;place-items:center;font-size:4rem;color:var(--accent);margin:12px 0;box-shadow:0 0 18px var(--accent)}
+table{border-collapse:collapse;width:100%}
+th,td{border:1px solid #234;padding:8px;text-align:left}
+th{width:7em;color:var(--accent)}
